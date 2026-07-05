@@ -5,6 +5,7 @@ class Program2
 		smallest ();
 		oddNum();
 		evenNum();
+		firstNum();
 	}
 	
 	public static void smallest(){
@@ -57,6 +58,17 @@ class Program2
 		
 		System.out.println("The count of even digits in " +temp+ " is " + count);
 		
+	}
+
+	public static void firstNum(){
+		int num = 6787;
+		int temp = num;
+		while (temp>=10)
+		{
+			temp = temp /10;
+		
+		}
+		System.out.println("The first digit in " + num + " is " + temp);
 	}
 	
 	
