@@ -55,26 +55,26 @@ class Loops
         int start = 1;
         int end = 20;
 		System.out.println("the range of prime numbers within range of 20 ");
-
-    for (int num = start; num <= end; num++) {
-        int count = 0;
-
-        if (num <= 1) {
-            continue;
-        }
-
-        for (int i = 2; i <= num / 2; i++) {
-            if (num % i == 0) {
-                count++;
-                break;
-            }
-        }
-
-        if (count == 0) {
-            System.out.println(  num);
-        }
+		for(int num = start;num<=end;num++){
+			if (num<=1){
+				continue;
+			}
+			int count = 0 ;
+			if(num>2){
+				for(int i =2;i<=num/2;i++){
+					if(num%i==0){
+						count ++;
+						break;
+					}
+					
+				}
+				if(count ==0){
+					  System.out.println(num);
+				}
+			}
+		}
+		
     }
-}
 	
 	
 	public static void smallest(){
