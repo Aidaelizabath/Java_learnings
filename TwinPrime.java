@@ -1,4 +1,6 @@
-public class Problems {
+import java.util.Scanner;
+
+public class TwinPrime {
 	static Scanner sc = new Scanner (System.in);
 	
 public static void main(String[] args) {

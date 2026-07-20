@@ -1,7 +1,7 @@
 
 
 
-package staticMember;
+
 
 public class StaticVariable {
 	static int a;
