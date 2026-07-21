@@ -1,5 +1,6 @@
+import java.util.Scanner;
 class TwistedPrimeNotImp {
-    import java.util.Scanner;
+    
 
 
 	static Scanner sc = new Scanner(System.in);
