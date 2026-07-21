@@ -1,4 +1,4 @@
-public class HarshadNonImp {
+public class HarshadNonImp{
     import java.util.Scanner;
 
 	static Scanner sc = new Scanner(System.in);
